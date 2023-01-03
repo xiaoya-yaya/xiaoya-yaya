@@ -5,8 +5,9 @@
 
 Welcome to my GitHub channel 😉
 -   🔭 Currently a Ph.D student focusing on data science and open-source governance
--   👯 Memebr of X-lab and Kaiyuanshe
--   🌱 Active contributor of CHAOSS community and the TODO Group
+-   👯 Memebr of X-lab and Kaiyuanshe（开源社）
+-   🌱 Active contributor of the CHAOSS community and the TODO Group
+-   🧷 Alibaba OSPO research intern
 -   💬 My email: xiaoyaxiaesther@gmail.com
 
 
