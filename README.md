@@ -4,11 +4,11 @@
 ### Hi there 👋
 
 Welcome to my GitHub channel 😉
--   🔭 Currently a Ph.D student focusing on data science and open-source governance
+-   🔭 Ph.D focusing on data science and open-source governance
 -   👯 Memebr of X-lab and Kaiyuanshe（开源社）
--   🌱 Active contributor of the CHAOSS community and the TODO Group
--   💡 OSPO Researcher
--   💬 My email: xiaoyaxiaesther@gmail.com
+-   🌱 Active contributor to the CHAOSS community and the TODO Group
+-   💡 Open Source Believer
+-   📫 My email: xiaoyaxiaesther@gmail.com
 
 
 <!--
