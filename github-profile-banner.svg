@@ -1,0 +1,76 @@
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="960" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.42" stop-color="#1f1147"/>
+      <stop offset="0.72" stop-color="#0f3b57"/>
+      <stop offset="1" stop-color="#061a25"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="480" y1="74" x2="480" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff5ad9"/>
+      <stop offset="0.55" stop-color="#ff9f1c"/>
+      <stop offset="1" stop-color="#ffe66d"/>
+    </linearGradient>
+    <linearGradient id="road" x1="480" y1="210" x2="480" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161826"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.95 0 0 0 0 1 0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#44f7ff" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="360" rx="26" fill="url(#sky)"/>
+  <rect width="960" height="360" rx="26" fill="url(#grid)"/>
+
+  <circle cx="480" cy="151" r="86" fill="url(#sun)" opacity="0.95"/>
+  <path d="M397 123H563M391 148H569M405 173H555M425 198H535" stroke="#111827" stroke-opacity="0.48" stroke-width="8"/>
+
+  <path d="M0 252C94 222 155 223 246 248C333 272 409 269 480 238C571 199 650 205 751 238C827 263 888 267 960 245V360H0V252Z" fill="#080b13" opacity="0.9"/>
+
+  <path d="M382 360L454 214H506L578 360H382Z" fill="url(#road)"/>
+  <path d="M480 215V360" stroke="#ffe66d" stroke-opacity="0.8" stroke-width="4" stroke-dasharray="20 18"/>
+  <path d="M454 214L254 360M506 214L706 360" stroke="#44f7ff" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M0 312H960M75 284H885M157 259H803M231 239H729" stroke="#44f7ff" stroke-opacity="0.22" stroke-width="2"/>
+
+  <g filter="url(#glow)">
+    <path d="M112 93H279V184H112V93Z" fill="#0b1020" stroke="#44f7ff" stroke-width="2"/>
+    <path d="M128 113H263M128 132H217M128 151H248M128 170H194" stroke="#b7fbff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="279" cy="93" r="6" fill="#ff5ad9"/>
+    <circle cx="112" cy="184" r="6" fill="#ffe66d"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M675 86L824 117L791 219L642 188L675 86Z" fill="#0b1020" stroke="#ff5ad9" stroke-width="2"/>
+    <path d="M687 119L742 131L729 183L674 171L687 119Z" stroke="#ffe66d" stroke-width="3"/>
+    <path d="M760 136L802 145M755 155L792 163M750 174L779 180" stroke="#b7fbff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="824" cy="117" r="6" fill="#44f7ff"/>
+  </g>
+
+  <text x="76" y="62" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="700" letter-spacing="2">
+    XIAOYA / YAYA
+  </text>
+  <text x="76" y="224" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="37" font-weight="800">
+    LLM ecosystem research
+  </text>
+  <text x="78" y="261" fill="#b7fbff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+    agentic AI · open source signals · infra maps
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#05070d" font-weight="700">
+    <rect x="76" y="282" width="98" height="25" rx="12" fill="#44f7ff"/>
+    <text x="95" y="299">LANDSCAPE</text>
+    <rect x="186" y="282" width="122" height="25" rx="12" fill="#ffe66d"/>
+    <text x="202" y="299">AGENTIC AI</text>
+    <rect x="320" y="282" width="96" height="25" rx="12" fill="#ff5ad9"/>
+    <text x="345" y="299">SIGNALS</text>
+  </g>
+</svg>
